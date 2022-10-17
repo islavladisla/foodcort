@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="keywords" content="HTML, META, метатег, тег, поисковая система">
+    <meta name="description" content="Новая страница о моем сайте">
+
+    <title>SITE</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="row border-bottom" id="header-menu">
+            <div class="col-2">
+                <span><a href="page.html">Вкус дома</a></span>
+            </div>
+            <div class="col-4">
+                <ul class="row">
+                    <li class="col"><a href="#main">Главная</a></li>
+                    <li class="col"><a href="#galery">Галерея</a></li>
+                    <li class="col"><a href="#recipes">Рецепты</a></li>
+                    <li class="col"><a href="#features">Польза</a></li>
+                    <li class="col"><a href="#yourrecipe">Ваш рецепт</a></li>
+                </ul>
+            </div>
+            <div class="col-3 offset-3" id="social-links">
+                <div class="row">
+                    <div class="col">
+                        <a href="https://twitter.com/" target="_blank">
+                            <img class="img-fluid" src="images/twitter-128.png" alt="twitter">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img class="img-fluid" src="images/facebook-128.png" alt="facebook">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img class="img-fluid" src="images/instagram-2-128.png" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img class="img-fluid" src="images/youtube-128.png" alt="youtube">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://www.google.com/intl/ru/gmail/about/" target="_blank">
+                            <img class="img-fluid" src="images/gmail-128.png" alt="gmail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1" id="mobile-menu-icon">
+                <button class="btn btn-primary">МЕНЮ</button>
+                <div id="mobile-menu">
+                    <ul class="row">
+                        <li class="col"><a href="#main">Главная</a></li>
+                        <li class="col"><a href="#galery">Галерея</a></li>
+                        <li class="col"><a href="#recipes">Рецепты</a></li>
+                        <li class="col"><a href="#features">Польза</a></li>
+                        <li class="col"><a href="#yourrecipe">Ваш рецепт</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="greeting-list container">
+        <div class="greeting-list__block block block--first">
+            <div class="block__description">
+                <h3 id="main">На завтрак</h3>
+                <p>Вкусный завтрак создаёт хорошее настроение на весь день. Как приятно начать день с лёгкого, но сытного завтрака!</p>
+                <p>Моя маленькая коллекция рецептов разнообразит ваши завтраки.</p>
+                <button>Рецепты</button>
+            </div>
+            <div class="block__image"><img src="images/IMG_20200228_153052_253.png" alt="pancakes"></div>
+        </div>
+
+        <div class="greeting-list__block">
+            <div class="block__image"><img src="images/IMG_20200422_140032_435.png" alt="ragu"></div>
+            <div class="block__description">
+                <h4>Вторые блюда</h4>
+                <p> Основной приём пищи предполагает сытные блюда из овощей, круп, мяса и рыбы.</p>
+                <p>Здесь вы можете найти рецепты праздничных блюд и блюда на каждый день.</p>
+                <button>Рецепты</button>
+            </div>
+        </div>
+
+        <div class="greeting-list__block block">
+            <div class="block__description">
+                <h4>Выпечка</h4>
+                <p>По выходным можно порадовать себя и своих близких вкусной выпечкой и домашним хлебом.</p>
+                <p> Здесь пироги и булочки с моими любимыми начинками.</p>
+                <button>Рецепты</button>
+            </div>
+            <div class="block__image">
+                <img src="images/IMG_20191025_111317_538.png" alt="pie">
+            </div>
+        </div>
+
+        <div class="greeting-list__block block">
+            <div class=" block__image">
+                <img src="images/IMG_20211108_100144_293.png" alt="icecream">
+            </div>
+            <div class="block__description">
+                <h4>Десерты</h4>
+                <p>Для сладкоежек у меня есть рецепты тортов, домашнего мороженого, суфле, пирожных и печенья. </p>
+                <p> Пить с ними чай - одно удовольствие!</p>
+                <button>Рецепты</button>
+            </div>
+        </div>
+    </div>
+    <h1 id="galery">Галерея</h1>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="carousel-caption">Сырники</div>
+                <img src="images/IMG_20200127_095927_790.png" alt="biscuit">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption">Вишнёвый пирог</div>
+                <img src="images/IMG_20200106_213749_966.png" alt="cherrypie">
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-caption">Киш по-лотарингски</div>
+                <img src="images/IMG_20201105_113229_103.png" alt="pie">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+    <footer>
+        <div class="row border-top" id="footer-menu">
+            <div class="col-4 offset-4">
+                <div class="row">
+                    <div class="col">
+                        <a href="https://twitter.com/" target="_blank">
+                            <img class="img-fluid" src="images/twitter-128.png" alt="twitter">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="images/facebook-128.png" alt="facebook">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="images/instagram-2-128.png" alt="instagram">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="images/youtube-128.png" alt="youtube">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid" src="images/gmail-128.png" alt="gmail">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 offset-5"><span>&copy; UNTITLED 2022</span></div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
